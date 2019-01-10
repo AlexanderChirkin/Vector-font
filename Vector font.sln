@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicLibrary", "LogicLibrary\LogicLibrary.csproj", "{CF070678-2B98-4361-86AC-D896055DF83A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "сериализация символа", "сериализация символа\сериализация символа.csproj", "{9DBEF8C6-2810-4820-9347-278AF31ED840}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormVectorFont", "FormVectorFont\FormVectorFont.csproj", "{8378D7B6-CDDC-4EEF-BC54-BB37A09495C5}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF070678-2B98-4361-86AC-D896055DF83A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF070678-2B98-4361-86AC-D896055DF83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF070678-2B98-4361-86AC-D896055DF83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF070678-2B98-4361-86AC-D896055DF83A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DBEF8C6-2810-4820-9347-278AF31ED840}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DBEF8C6-2810-4820-9347-278AF31ED840}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DBEF8C6-2810-4820-9347-278AF31ED840}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DBEF8C6-2810-4820-9347-278AF31ED840}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8378D7B6-CDDC-4EEF-BC54-BB37A09495C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8378D7B6-CDDC-4EEF-BC54-BB37A09495C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8378D7B6-CDDC-4EEF-BC54-BB37A09495C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8378D7B6-CDDC-4EEF-BC54-BB37A09495C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
